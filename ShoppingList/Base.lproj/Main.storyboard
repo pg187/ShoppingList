@@ -115,6 +115,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="decreaseButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mDF-wu-bcs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXf-A6-huC">
                                 <rect key="frame" x="351" y="382" width="28" height="26"/>
@@ -123,9 +126,12 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="increaseButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A4Q-Md-eWe"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter item name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Ad-H6-TL1">
-                                <rect key="frame" x="21" y="455" width="220" height="30"/>
+                                <rect key="frame" x="20" y="459" width="220" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.81960784310000001" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.59999999999999998" green="0.35294117650000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -133,7 +139,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" placeholder="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4BB-Ey-UEB">
-                                <rect key="frame" x="301" y="455" width="33" height="30"/>
+                                <rect key="frame" x="300" y="459" width="33" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.81960784310000001" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" red="0.59999999999999998" green="0.35294117650000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -141,20 +147,26 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9a-vm-9Ge">
-                                <rect key="frame" x="259" y="455" width="28" height="26"/>
+                                <rect key="frame" x="258" y="459" width="28" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="decreaseButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ks-yt-djL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEb-ao-Y9d">
-                                <rect key="frame" x="352" y="455" width="28" height="26"/>
+                                <rect key="frame" x="351" y="459" width="28" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="increaseButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bZV-an-qRG"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter item name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p6L-YQ-DgO">
                                 <rect key="frame" x="21" y="531" width="220" height="30"/>
@@ -179,6 +191,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="decreaseButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qPv-dT-Blm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DE9-9m-yU2">
                                 <rect key="frame" x="352" y="531" width="28" height="26"/>
@@ -187,6 +202,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="increaseButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VfE-oX-b0a"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter item name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2rw-Jf-oDq">
                                 <rect key="frame" x="20" y="679" width="220" height="30"/>
@@ -211,6 +229,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="decreaseButton7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zH4-2W-uNM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpc-1s-qZ7">
                                 <rect key="frame" x="351" y="679" width="28" height="26"/>
@@ -219,6 +240,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="increaseButton7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6sv-1m-Rrl"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter item name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ull-eX-xhh">
                                 <rect key="frame" x="20" y="602" width="220" height="30"/>
@@ -243,6 +267,9 @@
                                 <state key="normal" title="-">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="decreaseButton6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wH9-7y-BLF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhS-2N-xpg">
                                 <rect key="frame" x="351" y="602" width="28" height="26"/>
@@ -251,6 +278,9 @@
                                 <state key="normal" title="+">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="increaseButton6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DMN-4P-vRV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEa-3K-Acn">
                                 <rect key="frame" x="258" y="791" width="75" height="34"/>
@@ -258,8 +288,11 @@
                                 <color key="backgroundColor" red="1" green="0.81960784310000001" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Cancel">
-                                    <color key="titleColor" red="0.59999999999999998" green="0.35294117650000001" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="cancelButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Etj-eR-P2m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWa-ao-KPg">
                                 <rect key="frame" x="68" y="791" width="75" height="34"/>
@@ -294,7 +327,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="decreaseButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YQh-z4-4HJ"/>
+                                    <action selector="decreaseButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ee-i0-pnI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxp-Gf-WsC">
@@ -305,7 +338,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="increaseButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0HF-Th-3UI"/>
+                                    <action selector="increaseButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v4X-mf-TeC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -315,8 +348,21 @@
                     <connections>
                         <outlet property="CancelButton" destination="LEa-3K-Acn" id="e0A-IS-qr1"/>
                         <outlet property="SaveButton" destination="LWa-ao-KPg" id="Xbk-KB-aY5"/>
+                        <outlet property="item1" destination="dGo-CF-W6M" id="Wus-pU-CZG"/>
                         <outlet property="item1quantity" destination="QXi-l7-evG" id="SlN-e9-Roi"/>
+                        <outlet property="item2" destination="jSW-z5-oLl" id="tRX-PO-3jQ"/>
                         <outlet property="item2quantity" destination="z9A-Dw-ocw" id="HmC-Q3-rED"/>
+                        <outlet property="item3" destination="Vbl-q5-Zix" id="mnx-Cs-KDO"/>
+                        <outlet property="item3quantity" destination="Cf8-MW-tM7" id="LXT-Nk-ajn"/>
+                        <outlet property="item4" destination="4Ad-H6-TL1" id="kqd-2F-3fY"/>
+                        <outlet property="item4quantity" destination="4BB-Ey-UEB" id="UNa-Wb-IgQ"/>
+                        <outlet property="item5" destination="p6L-YQ-DgO" id="Y8K-p0-cFw"/>
+                        <outlet property="item5quantity" destination="dGd-jG-Ba7" id="YpD-oo-HBa"/>
+                        <outlet property="item6" destination="Ull-eX-xhh" id="Zy0-aV-Q59"/>
+                        <outlet property="item6quantity" destination="i2S-jp-x5x" id="Kzh-4g-CPB"/>
+                        <outlet property="item7" destination="2rw-Jf-oDq" id="M9S-vb-xNB"/>
+                        <outlet property="item7quantity" destination="Kbf-7T-pr7" id="fTE-5U-lh3"/>
+                        <outlet property="listTopic" destination="Z7A-FF-cjR" id="xuz-jk-7J8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
