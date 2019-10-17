@@ -4,7 +4,7 @@
 //  Author name: Pragya Gurung
 //  Student ID: 301082435
 //  Date: October 16, 2019
-//  v3:  added comments and fixed errors
+//  v4:  final
 //  Created by Student on 2019-10-16.
 //  Copyright © 2019 CentennialCollege. All rights reserved.
 //
@@ -14,6 +14,7 @@ import UIKit
 class ViewController: UIViewController {
     private var value: String = ""
     private var result: Int = 0
+   
     @IBOutlet weak var CancelButton: UIButton!
     @IBOutlet weak var SaveButton: UIButton!
     override func viewDidLoad() {
@@ -256,7 +257,7 @@ class ViewController: UIViewController {
         SaveButton.setTitleColor(UIColor.gray, for: .normal)
     }
     
-    //show alert message when 'Save button is pressed'
+    //shows alert message when 'Save' button is pressed
     @IBAction func saveButtonAction(_ sender: Any) {
         let alert = UIAlertController(
             title: "Save successful",
